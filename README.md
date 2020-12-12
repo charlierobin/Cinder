@@ -27,5 +27,5 @@ Originally inspired by a need for “Screen” when I was mucking around with le
   <a href="https://github.com/cinder"><img src="https://libcinder.org/docs/_assets/images/cinder_logo.svg" alt="Cinder Logo" width="256" height="auto"/></a>
 </p>
 
-... where there’s all the code, pre-packaged bits and pieces, examples, learning materials etc. Lots of good stuff!
+... where there’s all the code, pre-packaged bits and pieces, examples, learning materials etc. **Lots of good stuff!**
 
