@@ -4,20 +4,20 @@ I thought I would start by adding some extra blend modes (to the original Blend 
 
 Some of them work correctly, others are works in progress:
 
-Add
-Color
-Darken
-Difference
-Divide
-Hue
-Lighten
-Luminosity
-Multiply
-Saturation
-Screen
-Subtract
+`Add`
+`Color`
+`Darken`
+`Difference`
+`Divide`
+`Hue`
+`Lighten`
+`Luminosity`
+`Multiply`
+`Saturation`
+`Screen`
+`Subtract`
 
-Originally inspired by a need for “Screen” when I was mucking around with lens flare effects.
+Originally inspired by a need for “Screen” when I was mucking around with lens flare effects. (And yes, they are supposed to match, as closely as possible, the Adobe Photoshop/After Effects layer modes.)
 
 Please note that if you are after the **PROPER** Cinder code etc, this is where you go ...
 
