@@ -59,10 +59,10 @@ void colorImpl_u8( Surface8u *background, const Surface8u &foreground, const Are
 			Color dstColour = Color( dst[dR] / 255.0, dst[dG] / 255.0, dst[dB] / 255.0 );
 			Color srcColour = Color( src[sR] / 255.0, src[sG] / 255.0, src[sB] / 255.0 );
 			
-			vec3 dstHSV = dstColour.get( CM_HSV );
-			vec3 srcHSV = srcColour.get( CM_HSV );
+			vec3 dstHSL = hsv_to_hsl_TEMP( dstColour.get( CM_HSV ) );
+			vec3 srcHSL = hsv_to_hsl_TEMP( srcColour.get( CM_HSV ) );
 			
-			vec3 finalHSV = vec3( srcHSV.x, srcHSV.y, dstHSV.z );
+			vec3 finalHSV = hsl_to_hsv_TEMP( srcHSL.x, srcHSL.y, dstHSL.z );
 			
 			dstColour.set( CM_HSV, finalHSV );
 			

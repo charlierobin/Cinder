@@ -27,7 +27,6 @@ using namespace std;
 
 namespace cinder { namespace ip {
 
-template<bool DSTALPHA, bool DSTPREMULT, bool SRCPREMULT>
 void saturationImpl_u8( Surface8u *background, const Surface8u &foreground, const Area &srcArea, ivec2 absOffset )
 {
 //	bool SRCALPHA = foreground.hasAlpha();
@@ -58,12 +57,10 @@ void saturationImpl_u8( Surface8u *background, const Surface8u &foreground, cons
 			Color dstColour = Color( dst[dR] / 255.0, dst[dG] / 255.0, dst[dB] / 255.0 );
 			Color srcColour = Color( src[sR] / 255.0, src[sG] / 255.0, src[sB] / 255.0 );
 			
-			vec3 dstHSV = dstColour.get( CM_HSV );
-			vec3 srcHSV = srcColour.get( CM_HSV );
+			vec3 dstHSL = hsv_to_hsl_TEMP( dstColour.get( CM_HSV ) );
+			vec3 srcHSL = hsv_to_hsl_TEMP( srcColour.get( CM_HSV ) );
 			
-			vec3 finalHSV = vec3( dstHSV.x, srcHSV.y, dstHSV.z );
-			
-			dstColour.set( CM_HSV, finalHSV );
+			dstColour.set( CM_HSV, hsl_to_hsv_TEMP( dstHSL.x, srcHSL.y, dstHSL.z ) );
 			
 			dst[dR] = dstColour.r * 255.0;
 			dst[dG] = dstColour.g * 255.0;
@@ -77,27 +74,9 @@ void saturationImpl_u8( Surface8u *background, const Surface8u &foreground, cons
 
 void saturation( Surface8u *background, const Surface8u &foreground, const Area &srcArea, const ivec2 &dstRelativeOffset )
 {
-	pair<Area,ivec2> srcDst = clippedSrcDst( foreground.getBounds(), srcArea, background->getBounds(), srcArea.getUL() + dstRelativeOffset );	
-	if( background->hasAlpha() ) {
-		if( background->isPremultiplied() ) {
-			if( foreground.isPremultiplied() )
-				saturationImpl_u8<true, true, true>( background, foreground, srcDst.first, srcDst.second );
-			else
-				saturationImpl_u8<true, true, false>( background, foreground, srcDst.first, srcDst.second );
-		}
-		else { // background unpremult
-			if( foreground.isPremultiplied() )
-				saturationImpl_u8<true, false, true>( background, foreground, srcDst.first, srcDst.second );
-			else
-				saturationImpl_u8<true, false, false>( background, foreground, srcDst.first, srcDst.second );
-		}
-	}
-	else { // background no alpha
-		if( foreground.isPremultiplied() )
-			saturationImpl_u8<false, false, true>( background, foreground, srcDst.first, srcDst.second );
-		else
-			saturationImpl_u8<false, false, false>( background, foreground, srcDst.first, srcDst.second );
-	}
+	pair<Area,ivec2> srcDst = clippedSrcDst( foreground.getBounds(), srcArea, background->getBounds(), srcArea.getUL() + dstRelativeOffset );
+	
+	saturationImpl_u8( background, foreground, srcDst.first, srcDst.second );
 }
 
 void saturation( Surface32f *background, const Surface32f &foreground, const Area &srcArea, const ivec2 &dstRelativeOffset )

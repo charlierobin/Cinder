@@ -328,6 +328,20 @@ template<typename T, typename Y> inline ColorAT<T> operator*( Y s, const ColorAT
 // Free Functions
 extern CI_API ColorT<float> hsvToRgb( const vec3 &hsv );
 extern CI_API vec3 rgbToHsv( const ColorT<float> &c );
+    
+    
+    // Free Functions TEMPORARY
+    
+    extern CI_API vec3 rgbToHSL( const ColorT<float> &c );
+    
+    
+    
+    extern CI_API vec3 hsv_to_hsl_TEMP( vec3 );
+    	
+	extern CI_API vec3 hsl_to_hsv_TEMP( float, float, float );
+	
+
+    
 //! Converts the named colors of the SVG spec http://en.wikipedia.org/wiki/Web_colors#X11_color_names to sRGB Color8u. If \a found is non-NULL, it's set to whether the name was located. Returns black on failure.
 extern CI_API ColorT<uint8_t> svgNameToRgb( const char *svgName, bool *found = NULL );
 

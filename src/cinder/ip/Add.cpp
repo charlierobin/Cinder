@@ -30,7 +30,7 @@ namespace cinder { namespace ip {
 template<bool DSTALPHA, bool DSTPREMULT, bool SRCPREMULT>
 void addImpl_u8( Surface8u *background, const Surface8u &foreground, const Area &srcArea, ivec2 absOffset )
 {
-	bool SRCALPHA = foreground.hasAlpha();
+//	bool SRCALPHA = foreground.hasAlpha();
 	const ptrdiff_t srcRowBytes = foreground.getRowBytes();
 	const uint8_t sR = foreground.getChannelOrder().getRedOffset();
 	const uint8_t sG = foreground.getChannelOrder().getGreenOffset();

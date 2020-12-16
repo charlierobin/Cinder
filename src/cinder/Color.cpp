@@ -292,6 +292,116 @@ vec3 rgbToHsv( const Colorf &c )
     return vec3( hue, sat, val );
 }
 
+	
+	
+	vec3 rgbToHSL( const Colorf &c )
+	{
+		float r = c.r;
+		float g = c.g;
+		float b = c.b;
+		
+		float max = (r > g) ? ((r > b) ? r : b) : ((g > b) ? g : b);
+		float min = (r < g) ? ((r < b) ? r : b) : ((g < b) ? g : b);
+		
+		float delta = max - min;
+		
+		vec3 item;
+		
+		item.z = (max + min) / 2.0;
+		
+		if (delta == 0)
+		{
+			item.x = item.y = 0;
+		}
+		else {
+			if (item.z < 0.5) {
+				item.y = delta / (max + min) * 100.0;
+			}
+			else {
+				item.y = delta / (1 - std::abs(2 * item.z - 1)) * 100.0;
+			}
+			
+			if (r == max) {
+				item.x =  (g - b) / delta;
+			}
+			else if (g == max) {
+				item.x = (b - r) / delta + 2;
+			}
+			else if (b == max) {
+				item.x = (r - g) / delta + 4;
+			}
+			item.x = fmod(60 * item.x + 360, 360);
+		}
+		item.z *= 100;
+		
+		item.x = item.x / 360.0;
+		item.y = item.y / 100.0;
+		item.z = item.z / 100.0;
+		
+		return item;
+	}
+	
+	
+	
+	// TODO temporary ... will tidy all this up and integrate it better with class
+	
+
+	
+	vec3 hsv_to_hsl_TEMP( vec3 hsv )
+	{
+		float h = hsv.x;
+		float s = hsv.y;
+		float v = hsv.z;
+		
+		float _h = h;
+		float _s = s * v;
+		float _l = (2.0 - s) * v;
+		
+		
+//		std::cout << "_s " << _s << std::endl;
+//		std::cout << "_l " << _l << std::endl;
+		
+		if ( _l == 0)
+			_s = 1.0;
+		else if ( _l == 2)
+			_s = 1.0;
+		else
+			_s /= (_l <= 1.0) ? _l : 2.0 - _l;
+		
+		
+		
+//		std::cout << "_s " << _s << std::endl;
+		
+//		std::cout << "*******************" << std::endl;
+		
+		
+		_l /= 2.0;
+		
+		return vec3( _h, _s, _l );
+	}
+	
+	vec3 hsl_to_hsv_TEMP( float h, float s, float l )
+	{
+		float _h = h;
+		float _s = 0;
+		float _v = 0;
+		
+		l *= 2;
+		s *= (l <= 1) ? l : 2 - l;
+		_v = (l + s) / 2.0;
+		_s = (2 * s) / (l + s);
+		
+//		std::cout << "_v " << _v << std::endl;
+//		std::cout << "_s " << _s << std::endl;
+//		
+//		std::cout << "*******************" << std::endl;
+		
+		return vec3( _h, _s, _v );
+	}
+	
+
+	
+	
 ColorT<uint8_t> svgNameToRgb( const char *name, bool *found )
 {
 	int minIdx = 0, maxIdx = sTotalColors - 1;

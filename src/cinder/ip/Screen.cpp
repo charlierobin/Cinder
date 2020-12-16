@@ -30,18 +30,18 @@ namespace cinder { namespace ip {
 template<bool DSTALPHA, bool DSTPREMULT, bool SRCPREMULT>
 void screenImpl_u8( Surface8u *background, const Surface8u &foreground, const Area &srcArea, ivec2 absOffset )
 {
-	bool SRCALPHA = foreground.hasAlpha();
+//	bool SRCALPHA = foreground.hasAlpha();
 	const ptrdiff_t srcRowBytes = foreground.getRowBytes();
 	const uint8_t sR = foreground.getChannelOrder().getRedOffset();
 	const uint8_t sG = foreground.getChannelOrder().getGreenOffset();
 	const uint8_t sB = foreground.getChannelOrder().getBlueOffset();
-	const uint8_t sA = SRCALPHA ? (foreground.getChannelOrder().getAlphaOffset()) : 0;	
+//	const uint8_t sA = SRCALPHA ? (foreground.getChannelOrder().getAlphaOffset()) : 0;	
 	const uint8_t srcInc = foreground.getPixelInc();
 	const ptrdiff_t dstRowBytes = background->getRowBytes();
 	const uint8_t dR = background->getChannelOrder().getRedOffset();
 	const uint8_t dG = background->getChannelOrder().getGreenOffset();
 	const uint8_t dB = background->getChannelOrder().getBlueOffset();
-	const uint8_t dA = DSTALPHA ? (background->getChannelOrder().getAlphaOffset()) : 0;
+//	const uint8_t dA = DSTALPHA ? (background->getChannelOrder().getAlphaOffset()) : 0;
 	const uint8_t dstInc = background->getPixelInc();
 	const int32_t width = srcArea.getWidth();
 	

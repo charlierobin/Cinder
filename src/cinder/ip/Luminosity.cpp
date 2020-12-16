@@ -45,6 +45,8 @@ void luminosityImpl_u8( Surface8u *background, const Surface8u &foreground, cons
 	const uint8_t dstInc = background->getPixelInc();
 	const int32_t width = srcArea.getWidth();
 	
+	static bool test = true;
+	
 	for( int32_t y = 0; y < srcArea.getHeight(); ++y ) {
 		
 		const uint8_t *src = reinterpret_cast<const uint8_t*>( reinterpret_cast<const uint8_t*>( foreground.getData() + srcArea.x1 * 4 ) + ( srcArea.y1 + y ) * srcRowBytes );
@@ -55,25 +57,31 @@ void luminosityImpl_u8( Surface8u *background, const Surface8u &foreground, cons
 		
 			// Creates a result color with the hue and saturation of the base color and the luminance of the blend color.
 			// This mode creates the inverse effect of Color mode.
-		
+	
 			Color dstColour = Color( dst[dR] / 255.0, dst[dG] / 255.0, dst[dB] / 255.0 );
 			Color srcColour = Color( src[sR] / 255.0, src[sG] / 255.0, src[sB] / 255.0 );
 			
-			vec3 dstHSV = dstColour.get( CM_HSV );
-			vec3 srcHSV = srcColour.get( CM_HSV );
+			vec3 dstHSL = rgbToHSL( dstColour );
+			vec3 srcHSL = rgbToHSL( srcColour );
+
+			vec3 finalHSV = hsl_to_hsv_TEMP( dstHSL.x, dstHSL.y, srcHSL.z );
 			
-			vec3 finalHSV = vec3( dstHSV.x, dstHSV.y, srcHSV.z );
+//			cout << finalHSV << endl;
 			
-			dstColour.set( CM_HSV, finalHSV );
+			Color finalColour = Color( CM_HSV, finalHSV );
 			
-			dst[dR] = dstColour.r * 255.0;
-			dst[dG] = dstColour.g * 255.0;
-			dst[dB] = dstColour.b * 255.0;
+//			cout << finalColour << endl;
+			
+			dst[dR] = finalColour.r * 255;
+			dst[dG] = finalColour.g * 255;
+			dst[dB] = finalColour.b * 255;
 			
 			src += srcInc;
 			dst += dstInc;
 		}
 	}
+	
+	test = false;
 }
 
 void luminosity( Surface8u *background, const Surface8u &foreground, const Area &srcArea, const ivec2 &dstRelativeOffset )
