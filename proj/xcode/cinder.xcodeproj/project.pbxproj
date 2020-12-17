@@ -1597,6 +1597,24 @@
 		C7BA40890FA8C13A00AADC07 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BA40880FA8C13A00AADC07 /* AudioToolbox.framework */; };
 		C7BA408B0FA8C13A00AADC07 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BA408A0FA8C13A00AADC07 /* AudioUnit.framework */; };
 		C7BA408D0FA8C13A00AADC07 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BA408C0FA8C13A00AADC07 /* CoreAudio.framework */; };
+		CB2AC212258B4A6500DDAB00 /* GrayscaleExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2AC211258B4A6500DDAB00 /* GrayscaleExtended.h */; };
+		CB2AC213258B4A6500DDAB00 /* GrayscaleExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2AC211258B4A6500DDAB00 /* GrayscaleExtended.h */; };
+		CB2AC214258B4A6500DDAB00 /* GrayscaleExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2AC211258B4A6500DDAB00 /* GrayscaleExtended.h */; };
+		CB2AC216258B4A8400DDAB00 /* GrayscaleExtended.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2AC215258B4A8400DDAB00 /* GrayscaleExtended.cpp */; };
+		CB2AC217258B4A8400DDAB00 /* GrayscaleExtended.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2AC215258B4A8400DDAB00 /* GrayscaleExtended.cpp */; };
+		CB2AC218258B4A8400DDAB00 /* GrayscaleExtended.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2AC215258B4A8400DDAB00 /* GrayscaleExtended.cpp */; };
+		CB2AC21A258B4BEB00DDAB00 /* Gradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2AC219258B4BEB00DDAB00 /* Gradient.cpp */; };
+		CB2AC21B258B4BEB00DDAB00 /* Gradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2AC219258B4BEB00DDAB00 /* Gradient.cpp */; };
+		CB2AC21C258B4BEB00DDAB00 /* Gradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2AC219258B4BEB00DDAB00 /* Gradient.cpp */; };
+		CB2AC21E258B4C1900DDAB00 /* Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2AC21D258B4C1900DDAB00 /* Gradient.h */; };
+		CB2AC21F258B4C1900DDAB00 /* Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2AC21D258B4C1900DDAB00 /* Gradient.h */; };
+		CB2AC220258B4C1900DDAB00 /* Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2AC21D258B4C1900DDAB00 /* Gradient.h */; };
+		CB321D0A258B4D4B00E7181F /* Chromakey.h in Headers */ = {isa = PBXBuildFile; fileRef = CB321D09258B4D4B00E7181F /* Chromakey.h */; };
+		CB321D0B258B4D4B00E7181F /* Chromakey.h in Headers */ = {isa = PBXBuildFile; fileRef = CB321D09258B4D4B00E7181F /* Chromakey.h */; };
+		CB321D0C258B4D4B00E7181F /* Chromakey.h in Headers */ = {isa = PBXBuildFile; fileRef = CB321D09258B4D4B00E7181F /* Chromakey.h */; };
+		CB321D0E258B4D7400E7181F /* Chromakey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB321D0D258B4D7400E7181F /* Chromakey.cpp */; };
+		CB321D0F258B4D7400E7181F /* Chromakey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB321D0D258B4D7400E7181F /* Chromakey.cpp */; };
+		CB321D10258B4D7400E7181F /* Chromakey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB321D0D258B4D7400E7181F /* Chromakey.cpp */; };
 		CB8B4A3E2584F947004862AD /* Screen.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8B4A3D2584F947004862AD /* Screen.h */; };
 		CB8B4A3F2584F94F004862AD /* Screen.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8B4A3D2584F947004862AD /* Screen.h */; };
 		CB8B4A402584F950004862AD /* Screen.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8B4A3D2584F947004862AD /* Screen.h */; };
@@ -1669,6 +1687,24 @@
 		CB8B4AA82585500A004862AD /* Luminosity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8B4AA72585500A004862AD /* Luminosity.cpp */; };
 		CB8B4AA92585500A004862AD /* Luminosity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8B4AA72585500A004862AD /* Luminosity.cpp */; };
 		CB8B4AAA2585500A004862AD /* Luminosity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8B4AA72585500A004862AD /* Luminosity.cpp */; };
+		CBD088CB258BCD7D00292C61 /* Brightness.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD088CA258BCD7D00292C61 /* Brightness.h */; };
+		CBD088CC258BCD7D00292C61 /* Brightness.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD088CA258BCD7D00292C61 /* Brightness.h */; };
+		CBD088CD258BCD7D00292C61 /* Brightness.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD088CA258BCD7D00292C61 /* Brightness.h */; };
+		CBD088CF258BCDED00292C61 /* Brightness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD088CE258BCDED00292C61 /* Brightness.cpp */; };
+		CBD088D0258BCDED00292C61 /* Brightness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD088CE258BCDED00292C61 /* Brightness.cpp */; };
+		CBD088D1258BCDED00292C61 /* Brightness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD088CE258BCDED00292C61 /* Brightness.cpp */; };
+		CBD088D3258BCEDB00292C61 /* Contrast.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD088D2258BCEDB00292C61 /* Contrast.h */; };
+		CBD088D4258BCEDB00292C61 /* Contrast.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD088D2258BCEDB00292C61 /* Contrast.h */; };
+		CBD088D5258BCEDB00292C61 /* Contrast.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD088D2258BCEDB00292C61 /* Contrast.h */; };
+		CBD088D7258BCEFA00292C61 /* Contrast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD088D6258BCEFA00292C61 /* Contrast.cpp */; };
+		CBD088D8258BCEFA00292C61 /* Contrast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD088D6258BCEFA00292C61 /* Contrast.cpp */; };
+		CBD088D9258BCEFA00292C61 /* Contrast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD088D6258BCEFA00292C61 /* Contrast.cpp */; };
+		CBEEE639258BE09E00588548 /* Gamma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEEE638258BE09E00588548 /* Gamma.cpp */; };
+		CBEEE63A258BE09E00588548 /* Gamma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEEE638258BE09E00588548 /* Gamma.cpp */; };
+		CBEEE63B258BE09E00588548 /* Gamma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEEE638258BE09E00588548 /* Gamma.cpp */; };
+		CBEEE63D258BE0E300588548 /* Gamma.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEEE63C258BE0E300588548 /* Gamma.h */; };
+		CBEEE63E258BE0E300588548 /* Gamma.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEEE63C258BE0E300588548 /* Gamma.h */; };
+		CBEEE63F258BE0E300588548 /* Gamma.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEEE63C258BE0E300588548 /* Gamma.h */; };
 		D2AAC088055469A000DB518D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		D8A5A81A19BFDE8700811132 /* CaptureImplAvFoundation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7FA5FC112124A790065683B /* CaptureImplAvFoundation.mm */; };
 		EAC3D1A91011F2E700FFBC9E /* Serial.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC3D1A81011F2E700FFBC9E /* Serial.h */; };
@@ -2405,6 +2441,12 @@
 		C7BA408C0FA8C13A00AADC07 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		C7FA5FC112124A790065683B /* CaptureImplAvFoundation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CaptureImplAvFoundation.mm; sourceTree = "<group>"; };
 		C7FA5FC512124B1C0065683B /* CaptureImplAvFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureImplAvFoundation.h; sourceTree = "<group>"; };
+		CB2AC211258B4A6500DDAB00 /* GrayscaleExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GrayscaleExtended.h; path = ip/GrayscaleExtended.h; sourceTree = "<group>"; };
+		CB2AC215258B4A8400DDAB00 /* GrayscaleExtended.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GrayscaleExtended.cpp; path = ip/GrayscaleExtended.cpp; sourceTree = "<group>"; };
+		CB2AC219258B4BEB00DDAB00 /* Gradient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Gradient.cpp; path = ip/Gradient.cpp; sourceTree = "<group>"; };
+		CB2AC21D258B4C1900DDAB00 /* Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gradient.h; path = ip/Gradient.h; sourceTree = "<group>"; };
+		CB321D09258B4D4B00E7181F /* Chromakey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chromakey.h; path = ip/Chromakey.h; sourceTree = "<group>"; };
+		CB321D0D258B4D7400E7181F /* Chromakey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Chromakey.cpp; path = ip/Chromakey.cpp; sourceTree = "<group>"; };
 		CB8B4A3D2584F947004862AD /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Screen.h; path = ip/Screen.h; sourceTree = "<group>"; };
 		CB8B4A412584F97B004862AD /* Screen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Screen.cpp; path = ip/Screen.cpp; sourceTree = "<group>"; };
 		CB8B4A4F2585307A004862AD /* Multiply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Multiply.cpp; path = ip/Multiply.cpp; sourceTree = "<group>"; };
@@ -2429,6 +2471,12 @@
 		CB8B4A9C25854FE2004862AD /* Saturation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Saturation.h; path = ip/Saturation.h; sourceTree = "<group>"; };
 		CB8B4AA325854FFD004862AD /* Saturation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Saturation.cpp; path = ip/Saturation.cpp; sourceTree = "<group>"; };
 		CB8B4AA72585500A004862AD /* Luminosity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Luminosity.cpp; path = ip/Luminosity.cpp; sourceTree = "<group>"; };
+		CBD088CA258BCD7D00292C61 /* Brightness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Brightness.h; path = ip/Brightness.h; sourceTree = "<group>"; };
+		CBD088CE258BCDED00292C61 /* Brightness.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Brightness.cpp; path = ip/Brightness.cpp; sourceTree = "<group>"; };
+		CBD088D2258BCEDB00292C61 /* Contrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contrast.h; path = ip/Contrast.h; sourceTree = "<group>"; };
+		CBD088D6258BCEFA00292C61 /* Contrast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Contrast.cpp; path = ip/Contrast.cpp; sourceTree = "<group>"; };
+		CBEEE638258BE09E00588548 /* Gamma.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Gamma.cpp; path = ip/Gamma.cpp; sourceTree = "<group>"; };
+		CBEEE63C258BE0E300588548 /* Gamma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gamma.h; path = ip/Gamma.h; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libcinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcinder.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E8BE07B2D77200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		EAC3D1A81011F2E700FFBC9E /* Serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Serial.h; sourceTree = "<group>"; };
@@ -2926,30 +2974,36 @@
 		00C07D8D0FFF1E43004801EA /* ip */ = {
 			isa = PBXGroup;
 			children = (
-				CB8B4A8F258549A2004862AD /* Hue.h */,
-				CB8B4A9725854FAB004862AD /* Color.h */,
-				CB8B4A9C25854FE2004862AD /* Saturation.h */,
-				CB8B4A9B25854FE2004862AD /* Luminosity.h */,
 				CB8B4A832585440E004862AD /* Add.h */,
-				CB8B4A842585440E004862AD /* Subtract.h */,
-				CB8B4A6F258540AF004862AD /* Lighten.h */,
-				CB8B4A7725854206004862AD /* Darken.h */,
 				003133A3129EB85D009DC098 /* Blend.h */,
-				CB8B4A3D2584F947004862AD /* Screen.h */,
-				CB8B4A53258530B4004862AD /* Multiply.h */,
-				CB8B4A5F258538CD004862AD /* Divide.h */,
+				00B8C3961AD582DE0007ADAA /* Blur.h */,
+				CBD088CA258BCD7D00292C61 /* Brightness.h */,
+				0055BEC51AD09A4F00813C09 /* Checkerboard.h */,
+				CB321D09258B4D4B00E7181F /* Chromakey.h */,
+				CB8B4A9725854FAB004862AD /* Color.h */,
+				CBD088D2258BCEDB00292C61 /* Contrast.h */,
+				CB8B4A7725854206004862AD /* Darken.h */,
 				CB8B4A6725853DF4004862AD /* Difference.h */,
+				CB8B4A5F258538CD004862AD /* Divide.h */,
 				00419C7711057CDB007EC9AD /* EdgeDetect.h */,
 				00419C7811057CDB007EC9AD /* Fill.h */,
 				00419C7911057CDB007EC9AD /* Flip.h */,
+				CBEEE63C258BE0E300588548 /* Gamma.h */,
+				CB2AC21D258B4C1900DDAB00 /* Gradient.h */,
 				00419C7A11057CDB007EC9AD /* Grayscale.h */,
+				CB2AC211258B4A6500DDAB00 /* GrayscaleExtended.h */,
 				00419C7B11057CDB007EC9AD /* Hdr.h */,
+				CB8B4A8F258549A2004862AD /* Hue.h */,
+				CB8B4A6F258540AF004862AD /* Lighten.h */,
+				CB8B4A9B25854FE2004862AD /* Luminosity.h */,
+				CB8B4A53258530B4004862AD /* Multiply.h */,
 				00419C7C11057CDB007EC9AD /* Premultiply.h */,
 				00419C7D11057CDB007EC9AD /* Resize.h */,
+				CB8B4A9C25854FE2004862AD /* Saturation.h */,
+				CB8B4A3D2584F947004862AD /* Screen.h */,
+				CB8B4A842585440E004862AD /* Subtract.h */,
 				00419C7E11057CDB007EC9AD /* Threshold.h */,
 				00419C7F11057CDB007EC9AD /* Trim.h */,
-				0055BEC51AD09A4F00813C09 /* Checkerboard.h */,
-				00B8C3961AD582DE0007ADAA /* Blur.h */,
 			);
 			name = ip;
 			sourceTree = "<group>";
@@ -2957,28 +3011,34 @@
 		00C07D8F0FFF1E99004801EA /* ip */ = {
 			isa = PBXGroup;
 			children = (
-				CB8B4A8B25854997004862AD /* Hue.cpp */,
-				CB8B4A9325854FA3004862AD /* Color.cpp */,
-				CB8B4AA325854FFD004862AD /* Saturation.cpp */,
-				CB8B4AA72585500A004862AD /* Luminosity.cpp */,
 				CB8B4A7B25854400004862AD /* Add.cpp */,
-				CB8B4A7C25854400004862AD /* Subtract.cpp */,
-				CB8B4A6B25854096004862AD /* Lighten.cpp */,
-				CB8B4A73258541FC004862AD /* Darken.cpp */,
 				434708D81267EE4300AA7349 /* Blend.cpp */,
-				CB8B4A412584F97B004862AD /* Screen.cpp */,
-				CB8B4A5B258538C0004862AD /* Divide.cpp */,
+				00B8C3921AD582400007ADAA /* Blur.cpp */,
+				CBD088CE258BCDED00292C61 /* Brightness.cpp */,
+				0055BE981AD099DE00813C09 /* Checkerboard.cpp */,
+				CB321D0D258B4D7400E7181F /* Chromakey.cpp */,
+				CB8B4A9325854FA3004862AD /* Color.cpp */,
+				CBD088D6258BCEFA00292C61 /* Contrast.cpp */,
+				CB8B4A73258541FC004862AD /* Darken.cpp */,
 				CB8B4A6325853DE3004862AD /* Difference.cpp */,
-				CB8B4A4F2585307A004862AD /* Multiply.cpp */,
+				CB8B4A5B258538C0004862AD /* Divide.cpp */,
 				00419C6511057CC6007EC9AD /* EdgeDetect.cpp */,
 				00419C6611057CC6007EC9AD /* Fill.cpp */,
-				0055BE981AD099DE00813C09 /* Checkerboard.cpp */,
-				00B8C3921AD582400007ADAA /* Blur.cpp */,
 				00419C6711057CC6007EC9AD /* Flip.cpp */,
+				CBEEE638258BE09E00588548 /* Gamma.cpp */,
+				CB2AC219258B4BEB00DDAB00 /* Gradient.cpp */,
 				00419C6811057CC6007EC9AD /* Grayscale.cpp */,
+				CB2AC215258B4A8400DDAB00 /* GrayscaleExtended.cpp */,
 				00419C6911057CC6007EC9AD /* Hdr.cpp */,
+				CB8B4A8B25854997004862AD /* Hue.cpp */,
+				CB8B4A6B25854096004862AD /* Lighten.cpp */,
+				CB8B4AA72585500A004862AD /* Luminosity.cpp */,
+				CB8B4A4F2585307A004862AD /* Multiply.cpp */,
 				00419C6A11057CC6007EC9AD /* Premultiply.cpp */,
 				00419C6B11057CC6007EC9AD /* Resize.cpp */,
+				CB8B4AA325854FFD004862AD /* Saturation.cpp */,
+				CB8B4A412584F97B004862AD /* Screen.cpp */,
+				CB8B4A7C25854400004862AD /* Subtract.cpp */,
 				00419C6C11057CC6007EC9AD /* Threshold.cpp */,
 				00419C6D11057CC6007EC9AD /* Trim.cpp */,
 			);
@@ -4034,6 +4094,7 @@
 				27C1FE381BD0AE3400AF387F /* Area.h in Headers */,
 				27C1FE391BD0AE3400AF387F /* highlevel.h in Headers */,
 				B3EA3F8F1DD0EEA900E34348 /* ftmm.h in Headers */,
+				CB2AC21F258B4C1900DDAB00 /* Gradient.h in Headers */,
 				27C1FE3A1BD0AE3400AF387F /* Stream.h in Headers */,
 				CB8B4A9925854FAB004862AD /* Color.h in Headers */,
 				B3EA3FF81DD0EEA900E34348 /* svfntfmt.h in Headers */,
@@ -4069,6 +4130,7 @@
 				27C1FE4F1BD0AE3400AF387F /* Perlin.h in Headers */,
 				27C1FE501BD0AE3400AF387F /* Ray.h in Headers */,
 				B3EA3F411DD0EEA900E34348 /* ftstdlib.h in Headers */,
+				CBEEE63E258BE0E300588548 /* Gamma.h in Headers */,
 				27C1FE511BD0AE3400AF387F /* lookup.h in Headers */,
 				B3EA3F8C1DD0EEA900E34348 /* ftmac.h in Headers */,
 				27C1FE521BD0AE3400AF387F /* Sphere.h in Headers */,
@@ -4084,6 +4146,7 @@
 				B3EA3FFB1DD0EEA900E34348 /* svgldict.h in Headers */,
 				B3EA3F441DD0EEA900E34348 /* freetype.h in Headers */,
 				27C1FE571BD0AE3400AF387F /* Sync.h in Headers */,
+				CBD088D4258BCEDB00292C61 /* Contrast.h in Headers */,
 				27C1FE581BD0AE3400AF387F /* Display.h in Headers */,
 				B3EA40191DD0EEA900E34348 /* svsfnt.h in Headers */,
 				B3EA3F741DD0EEA900E34348 /* ftglyph.h in Headers */,
@@ -4144,6 +4207,7 @@
 				27C1FE771BD0AE3400AF387F /* Resize.h in Headers */,
 				B322C4A11DC7DC7100D2E661 /* zutil.h in Headers */,
 				CB8B4A892585440E004862AD /* Subtract.h in Headers */,
+				CB2AC213258B4A6500DDAB00 /* GrayscaleExtended.h in Headers */,
 				27C1FE781BD0AE3400AF387F /* QuickTimeImplLegacy.h in Headers */,
 				27C1FE791BD0AE3400AF387F /* CameraUi.h in Headers */,
 				27C1FE7A1BD0AE3400AF387F /* Threshold.h in Headers */,
@@ -4155,6 +4219,7 @@
 				B3EA3F561DD0EEA900E34348 /* ftbitmap.h in Headers */,
 				27C1FE7F1BD0AE3400AF387F /* mdct.h in Headers */,
 				27C1FE801BD0AE3400AF387F /* Texture.h in Headers */,
+				CB321D0B258B4D4B00E7181F /* Chromakey.h in Headers */,
 				B3EA3F951DD0EEA900E34348 /* ftmoderr.h in Headers */,
 				27C1FE811BD0AE3400AF387F /* CinderCocoaTouch.h in Headers */,
 				27C1FE821BD0AE3400AF387F /* Xml.h in Headers */,
@@ -4179,6 +4244,7 @@
 				27C1FE8C1BD0AE3400AF387F /* backends.h in Headers */,
 				27C1FE8D1BD0AE3400AF387F /* rapidxml_print.hpp in Headers */,
 				27C1FE8E1BD0AE3400AF387F /* rapidxml.hpp in Headers */,
+				CBD088CC258BCD7D00292C61 /* Brightness.h in Headers */,
 				27C1FE8F1BD0AE3400AF387F /* Blend.h in Headers */,
 				27C1FE901BD0AE3400AF387F /* bitrate.h in Headers */,
 				B3EA3FA41DD0EEA900E34348 /* ftsizes.h in Headers */,
@@ -4286,6 +4352,7 @@
 				B3EA3FAB1DD0EEA900E34348 /* ftstroke.h in Headers */,
 				B3EA3FBD1DD0EEA900E34348 /* ftwinfnt.h in Headers */,
 				27C1FF8B1BD16D4800AF387F /* ImageSourceFileRadiance.h in Headers */,
+				CB2AC214258B4A6500DDAB00 /* GrayscaleExtended.h in Headers */,
 				B3EA3F3F1DD0EEA900E34348 /* ftoption.h in Headers */,
 				27C1FF8C1BD16D4800AF387F /* Area.h in Headers */,
 				27C1FF8D1BD16D4800AF387F /* QuickTimeImplAvf.h in Headers */,
@@ -4294,10 +4361,12 @@
 				27C1FF901BD16D4800AF387F /* Color.h in Headers */,
 				27C1FF911BD16D4800AF387F /* Filter.h in Headers */,
 				B3EA3FD21DD0EEA900E34348 /* ftmemory.h in Headers */,
+				CB321D0C258B4D4B00E7181F /* Chromakey.h in Headers */,
 				CB8B4A72258540AF004862AD /* Lighten.h in Headers */,
 				27C1FF921BD16D4800AF387F /* Rect.h in Headers */,
 				27C1FF931BD16D4800AF387F /* Url.h in Headers */,
 				B3EA403B1DD0EEA900E34348 /* tttags.h in Headers */,
+				CBD088CD258BCD7D00292C61 /* Brightness.h in Headers */,
 				B3EA3FB41DD0EEA900E34348 /* fttrigon.h in Headers */,
 				B3EA3F541DD0EEA900E34348 /* ftbdf.h in Headers */,
 				27C1FF941BD16D4800AF387F /* Vbo.h in Headers */,
@@ -4322,6 +4391,7 @@
 				27C1FF9E1BD16D4800AF387F /* psy.h in Headers */,
 				B3EA3FC91DD0EEA900E34348 /* ftdriver.h in Headers */,
 				27C1FF9F1BD16D4800AF387F /* BSplineFit.h in Headers */,
+				CB2AC220258B4C1900DDAB00 /* Gradient.h in Headers */,
 				27C1FFA01BD16D4800AF387F /* BSpline.h in Headers */,
 				27C1FFA11BD16D4800AF387F /* BandedMatrix.h in Headers */,
 				27C1FFA21BD16D4800AF387F /* Perlin.h in Headers */,
@@ -4341,6 +4411,7 @@
 				27C1FFA91BD16D4800AF387F /* Arcball.h in Headers */,
 				27C1FFAA1BD16D4800AF387F /* TriMesh.h in Headers */,
 				27C1FFAB1BD16D4800AF387F /* ObjLoader.h in Headers */,
+				CBEEE63F258BE0E300588548 /* Gamma.h in Headers */,
 				27BE4DCB1DA9E4B900DE84C8 /* ImageTargetFileStbImage.h in Headers */,
 				27C1FFAC1BD16D4800AF387F /* Display.h in Headers */,
 				27C1FFAD1BD16D4800AF387F /* envelope.h in Headers */,
@@ -4379,6 +4450,7 @@
 				B3EA3F481DD0EEA900E34348 /* ft2build.h in Headers */,
 				27C1FFBF1BD16D4800AF387F /* backends.h in Headers */,
 				B3EA402C1DD0EEA900E34348 /* t1types.h in Headers */,
+				CBD088D5258BCEDB00292C61 /* Contrast.h in Headers */,
 				27C1FFC01BD16D4800AF387F /* DataTarget.h in Headers */,
 				27C1FFC11BD16D4800AF387F /* ImageTargetFileQuartz.h in Headers */,
 				B3EA3FE71DD0EEA900E34348 /* ftvalid.h in Headers */,
@@ -4565,6 +4637,7 @@
 				00523AF61D49BEC400BE2DAF /* WindowImplWinRt.h in Headers */,
 				00F3BD200EBF89B700382AC1 /* Utilities.h in Headers */,
 				CB8B4A3E2584F947004862AD /* Screen.h in Headers */,
+				CB2AC212258B4A6500DDAB00 /* GrayscaleExtended.h in Headers */,
 				111A5EC8191F703D005C3166 /* psych_8.h in Headers */,
 				B3EA3F521DD0EEA900E34348 /* ftbdf.h in Headers */,
 				B3EA3FEE1DD0EEA900E34348 /* pshints.h in Headers */,
@@ -4629,6 +4702,7 @@
 				003ADB811038973700ACF6F2 /* TwGraph.h in Headers */,
 				003ADB821038973700ACF6F2 /* TwFonts.h in Headers */,
 				111A5ED0191F703D005C3166 /* setup_22.h in Headers */,
+				CB321D0A258B4D4B00E7181F /* Chromakey.h in Headers */,
 				000F61E71B338662009D2067 /* tinyexr.h in Headers */,
 				111A5ECB191F703D005C3166 /* residue_44p51.h in Headers */,
 				003ADB851038973700ACF6F2 /* TwColors.h in Headers */,
@@ -4645,6 +4719,7 @@
 				84A3FFE124048D1B00932807 /* imgui_internal.h in Headers */,
 				003ADB881038973700ACF6F2 /* TwMgr.h in Headers */,
 				003ADBA01038996800ACF6F2 /* AntTweakBar.h in Headers */,
+				CB2AC21E258B4C1900DDAB00 /* Gradient.h in Headers */,
 				002F8F73103AFD9A0077CB91 /* System.h in Headers */,
 				B3EA402A1DD0EEA900E34348 /* t1types.h in Headers */,
 				C70E19FF106AA38700E63577 /* Buffer.h in Headers */,
@@ -4679,7 +4754,9 @@
 				0003F47B1992DA7C00647C8B /* Log.h in Headers */,
 				00419C8011057CDB007EC9AD /* EdgeDetect.h in Headers */,
 				00419C8111057CDB007EC9AD /* Fill.h in Headers */,
+				CBD088D3258BCEDB00292C61 /* Contrast.h in Headers */,
 				111A5EEA191F703D005C3166 /* CDSPResampler.h in Headers */,
+				CBEEE63D258BE0E300588548 /* Gamma.h in Headers */,
 				002991B719B92C080002BC2D /* CinderGlm.h in Headers */,
 				111A5ECD191F703D005C3166 /* residue_8.h in Headers */,
 				00419C8211057CDB007EC9AD /* Flip.h in Headers */,
@@ -4801,6 +4878,7 @@
 				004172FA14C9BE520070C0D1 /* Frustum.h in Headers */,
 				111A5EBC191F703D005C3166 /* lpc.h in Headers */,
 				111A5EEF191F703D005C3166 /* r8bconf.h in Headers */,
+				CBD088CB258BCD7D00292C61 /* Brightness.h in Headers */,
 				0014407F14CDB8D900D99000 /* Plane.h in Headers */,
 				43F78EF61516DAE200EB63B5 /* Json.h in Headers */,
 				0059BD33151CF5540063F095 /* ConcurrentCircularBuffer.h in Headers */,
@@ -4991,6 +5069,7 @@
 				27C100341BD16D4800AF387F /* ImageSourceFileRadiance.cpp in Sources */,
 				27C100351BD16D4800AF387F /* scoped.cpp in Sources */,
 				B322C4631DC7DC7100D2E661 /* deflate.c in Sources */,
+				CBD088D9258BCEFA00292C61 /* Contrast.cpp in Sources */,
 				27C100361BD16D4800AF387F /* BandedMatrix.cpp in Sources */,
 				B3EA40B41DD0F00900E34348 /* ftstroke.c in Sources */,
 				00E244511DEA8BF000AAE4A8 /* raster.c in Sources */,
@@ -5021,6 +5100,7 @@
 				27C100481BD16D4800AF387F /* QuickTimeGlImplAvf.cpp in Sources */,
 				27C100491BD16D4800AF387F /* DataTarget.cpp in Sources */,
 				B3EA40BD1DD0F00900E34348 /* fttype1.c in Sources */,
+				CBD088D1258BCDED00292C61 /* Brightness.cpp in Sources */,
 				27C1004A1BD16D4800AF387F /* VboMesh.cpp in Sources */,
 				27C1004B1BD16D4800AF387F /* lookup.c in Sources */,
 				B322C45A1DC7DC7100D2E661 /* compress.c in Sources */,
@@ -5053,6 +5133,7 @@
 				27C100611BD16D4800AF387F /* Converter.cpp in Sources */,
 				27C100621BD16D4800AF387F /* Batch.cpp in Sources */,
 				27C100631BD16D4800AF387F /* Resize.cpp in Sources */,
+				CB321D10258B4D7400E7181F /* Chromakey.cpp in Sources */,
 				CB8B4A9625854FA3004862AD /* Color.cpp in Sources */,
 				27C100641BD16D4800AF387F /* AppCocoaTouch.cpp in Sources */,
 				B3EA40AE1DD0F00900E34348 /* ftpatent.c in Sources */,
@@ -5077,6 +5158,7 @@
 				27C100731BD16D4800AF387F /* CinderCocoaTouch.mm in Sources */,
 				27C100741BD16D4800AF387F /* Xml.cpp in Sources */,
 				B322C4691DC7DC7100D2E661 /* gzclose.c in Sources */,
+				CB2AC218258B4A8400DDAB00 /* GrayscaleExtended.cpp in Sources */,
 				27C100751BD16D4800AF387F /* Timer.cpp in Sources */,
 				27C100761BD16D4800AF387F /* Text.cpp in Sources */,
 				27C100771BD16D4800AF387F /* CinderAssert.cpp in Sources */,
@@ -5105,6 +5187,7 @@
 				27C100841BD16D4800AF387F /* Triangulate.cpp in Sources */,
 				27C100851BD16D4800AF387F /* bucketalloc.c in Sources */,
 				B3EA404D1DD0EF0900E34348 /* pcf.c in Sources */,
+				CB2AC21C258B4BEB00DDAB00 /* Gradient.cpp in Sources */,
 				B3EA40C51DD0F02900E34348 /* smooth.c in Sources */,
 				27C100861BD16D4800AF387F /* Param.cpp in Sources */,
 				27C100871BD16D4800AF387F /* bitwise.c in Sources */,
@@ -5123,6 +5206,7 @@
 				27C100901BD16D4800AF387F /* wrapper.cpp in Sources */,
 				27C100911BD16D4800AF387F /* ConverterR8brain.cpp in Sources */,
 				B322C4781DC7DC7100D2E661 /* infback.c in Sources */,
+				CBEEE63B258BE09E00588548 /* Gamma.cpp in Sources */,
 				B3EA41001DD0F15400E34348 /* bdflib.c in Sources */,
 				27C100921BD16D4800AF387F /* window.c in Sources */,
 				27C100931BD16D4800AF387F /* tess.c in Sources */,
@@ -5256,6 +5340,7 @@
 				27C1FEDE1BD0AE3400AF387F /* ImageSourceFileRadiance.cpp in Sources */,
 				27C1FEDF1BD0AE3400AF387F /* scoped.cpp in Sources */,
 				B322C4621DC7DC7100D2E661 /* deflate.c in Sources */,
+				CBD088D8258BCEFA00292C61 /* Contrast.cpp in Sources */,
 				27C1FEE01BD0AE3400AF387F /* BandedMatrix.cpp in Sources */,
 				B3EA40B31DD0F00900E34348 /* ftstroke.c in Sources */,
 				00E244501DEA8BF000AAE4A8 /* raster.c in Sources */,
@@ -5286,6 +5371,7 @@
 				27C1FEF21BD0AE3400AF387F /* QuickTimeGlImplAvf.cpp in Sources */,
 				27C1FEF31BD0AE3400AF387F /* DataTarget.cpp in Sources */,
 				B3EA40BC1DD0F00900E34348 /* fttype1.c in Sources */,
+				CBD088D0258BCDED00292C61 /* Brightness.cpp in Sources */,
 				27C1FEF41BD0AE3400AF387F /* VboMesh.cpp in Sources */,
 				27C1FEF51BD0AE3400AF387F /* lookup.c in Sources */,
 				B322C4591DC7DC7100D2E661 /* compress.c in Sources */,
@@ -5318,6 +5404,7 @@
 				27C1FF0B1BD0AE3400AF387F /* Converter.cpp in Sources */,
 				27C1FF0C1BD0AE3400AF387F /* Batch.cpp in Sources */,
 				27C1FF0D1BD0AE3400AF387F /* Resize.cpp in Sources */,
+				CB321D0F258B4D7400E7181F /* Chromakey.cpp in Sources */,
 				CB8B4A9525854FA3004862AD /* Color.cpp in Sources */,
 				27C1FF0E1BD0AE3400AF387F /* AppCocoaTouch.cpp in Sources */,
 				B3EA40AD1DD0F00900E34348 /* ftpatent.c in Sources */,
@@ -5342,6 +5429,7 @@
 				27C1FF1D1BD0AE3400AF387F /* CinderCocoaTouch.mm in Sources */,
 				27C1FF1E1BD0AE3400AF387F /* Xml.cpp in Sources */,
 				B322C4681DC7DC7100D2E661 /* gzclose.c in Sources */,
+				CB2AC217258B4A8400DDAB00 /* GrayscaleExtended.cpp in Sources */,
 				27C1FF1F1BD0AE3400AF387F /* Timer.cpp in Sources */,
 				27C1FF201BD0AE3400AF387F /* Text.cpp in Sources */,
 				27C1FF211BD0AE3400AF387F /* CinderAssert.cpp in Sources */,
@@ -5370,6 +5458,7 @@
 				27C1FF2E1BD0AE3400AF387F /* Blend.cpp in Sources */,
 				27C1FF2F1BD0AE3400AF387F /* Clipboard.cpp in Sources */,
 				B3EA404C1DD0EF0900E34348 /* pcf.c in Sources */,
+				CB2AC21B258B4BEB00DDAB00 /* Gradient.cpp in Sources */,
 				B3EA40C41DD0F02900E34348 /* smooth.c in Sources */,
 				27C1FF301BD0AE3400AF387F /* Param.cpp in Sources */,
 				27C1FF311BD0AE3400AF387F /* bitwise.c in Sources */,
@@ -5388,6 +5477,7 @@
 				27C1FF3A1BD0AE3400AF387F /* wrapper.cpp in Sources */,
 				27C1FF3B1BD0AE3400AF387F /* ConverterR8brain.cpp in Sources */,
 				B322C4771DC7DC7100D2E661 /* infback.c in Sources */,
+				CBEEE63A258BE09E00588548 /* Gamma.cpp in Sources */,
 				B3EA40FF1DD0F15400E34348 /* bdflib.c in Sources */,
 				27C1FF3C1BD0AE3400AF387F /* window.c in Sources */,
 				27C1FF3D1BD0AE3400AF387F /* priorityq.c in Sources */,
@@ -5490,14 +5580,17 @@
 				111A5EBF191F703D005C3166 /* mapping0.c in Sources */,
 				B3EA40E11DD0F0C900E34348 /* gxvalid.c in Sources */,
 				11316E571B28ABE900BD8783 /* ImageFileTinyExr.cpp in Sources */,
+				CBEEE639258BE09E00588548 /* Gamma.cpp in Sources */,
 				B3EA40A91DD0F00900E34348 /* ftotval.c in Sources */,
 				1181F7C81A7F8792001BBFA2 /* AppBase.cpp in Sources */,
 				009EEF1A0EB79C89003AB86B /* Rect.cpp in Sources */,
+				CB321D0E258B4D7400E7181F /* Chromakey.cpp in Sources */,
 				84A3FFF424048D6200932807 /* imgui_draw.cpp in Sources */,
 				B3EA405F1DD0EF5C00E34348 /* type1.c in Sources */,
 				B322C4581DC7DC7100D2E661 /* compress.c in Sources */,
 				B3EA40D21DD0F07B00E34348 /* ftcache.c in Sources */,
 				B3EA40551DD0EF3200E34348 /* sfnt.c in Sources */,
+				CBD088D7258BCEFA00292C61 /* Contrast.cpp in Sources */,
 				00D92FB80EB8AE5200EE9D75 /* Url.cpp in Sources */,
 				B3EA409A1DD0F00900E34348 /* ftglyph.c in Sources */,
 				111A5FD4191F72AE005C3166 /* FileOggVorbis.cpp in Sources */,
@@ -5558,6 +5651,7 @@
 				111A5FD7191F72AE005C3166 /* FilterNode.cpp in Sources */,
 				B3EA40461DD0EEF700E34348 /* cff.c in Sources */,
 				111A5FC5191F72AE005C3166 /* Converter.cpp in Sources */,
+				CB2AC21A258B4BEB00DDAB00 /* Gradient.cpp in Sources */,
 				118CA4331A9427F700841458 /* CinderViewMac.mm in Sources */,
 				CB8B4A74258541FC004862AD /* Darken.cpp in Sources */,
 				0049C1B71010E5B10015B4B9 /* Renderer.cpp in Sources */,
@@ -5590,6 +5684,7 @@
 				111A5EDF191F703D005C3166 /* smallft.c in Sources */,
 				C70E1A03106AA39D00E63577 /* Buffer.cpp in Sources */,
 				0032FD2B10BB472E00C63A9D /* Exception.cpp in Sources */,
+				CB2AC216258B4A8400DDAB00 /* GrayscaleExtended.cpp in Sources */,
 				B322C4671DC7DC7100D2E661 /* gzclose.c in Sources */,
 				B322C4551DC7DC7100D2E661 /* adler32.c in Sources */,
 				111A5EDE191F703D005C3166 /* sharedbook.c in Sources */,
@@ -5642,6 +5737,7 @@
 				111A5EA4191F703D005C3166 /* bitwise.c in Sources */,
 				0003F47F1992DA9A00647C8B /* Log.cpp in Sources */,
 				111A5EB4191F703D005C3166 /* floor0.c in Sources */,
+				CBD088CF258BCDED00292C61 /* Brightness.cpp in Sources */,
 				00F601C819F6C9DD00C83781 /* Ubo.cpp in Sources */,
 				111A5FB3191F72AE005C3166 /* DeviceManagerCoreAudio.cpp in Sources */,
 				43ED0FDF12209488003AEB0B /* UrlImplCocoa.mm in Sources */,
