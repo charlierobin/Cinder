@@ -19,6 +19,15 @@ Some of them work correctly, others are works in progress:
 
 Originally inspired by a need for “Screen” when I was mucking around with lens flare effects. (And yes, they are supposed to match, as closely as possible, the Adobe Photoshop/After Effects layer modes.)
 
+Also starting to work on:
+
+* Brightness
+* Contrast
+* Gamma
+* Greyscale Extended
+* Gradient
+* Chromakey
+
 ### Please note that if you are after the **PROPER** Cinder code etc, this is where you go ...
 
 ### Cinder 0.9.3dev: [libcinder.org](http://libcinder.org)
