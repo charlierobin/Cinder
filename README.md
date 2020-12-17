@@ -1,6 +1,6 @@
 # My messing around with a fork of the Cinder C++/OpenGL library
 
-I thought I would start by adding some extra blend modes (to the original Blend that already ships with it) to the cinder::ip module.
+I thought I would start by adding some extra blend modes (in addition to the original included Blend functions) to the cinder::ip module.
 
 Some of them work correctly, others are works in progress:
 
@@ -24,8 +24,8 @@ Also starting to work on:
 * Brightness
 * Contrast
 * Gamma
-* Greyscale Extended
-* Gradient
+* Greyscale Extended (like the Cinder greyscale, but allows the user to adjust the channel weights contributing to the final image)
+* Gradient (vertical gradients)
 * Chromakey
 
 ### Please note that if you are after the **PROPER** Cinder code etc, this is where you go ...
